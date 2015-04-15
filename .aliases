@@ -1,0 +1,33 @@
+#! /bin/sh
+
+# safety nets
+alias rm='rm -i --preserve-root'
+alias mv='mv -i'
+#alias cp='cp -i'
+alias ln='ln -i'
+alias chown='chown --preserve-root'
+alias chmod='chmod --preserve-root'
+alias chgrp='chgrp --preserve-root'
+
+# make life easier
+alias c='clear'
+alias doit='sudo !!'
+alias ls='ls --color=always'
+alias ll='ls -l'
+alias la='ls -a'
+
+# nano
+alias nano='nano -S'
+alias snano='sudo nano'
+
+# root
+alias root='sudo -i'
+alias su='sudo -i'
+
+alias cdd='cd ~/Downloads/'
+
+# vi to vim
+alias vi='vim'
+
+# unp smart mode
+alias unp='unp -U'
